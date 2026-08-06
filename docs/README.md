@@ -1,12 +1,31 @@
-# BSDK docs 
-[Português](./README.PT.md) | [Español](./README.ES.md) | English
+BSDK — Base Structure DK, the DNA Kernel FM — is where the base structure of the [Dk](https://dk.drayker.org) kernel is proposed: how functions and modules are assembled into something that can be composed, revised and carried into larger distributed systems.
 
+## What is published here
 
+Motions for resolution. Not a specification.
 
+All proposed resolutions presented here are solutions to the requirements of Dk and the Drayker platform, and **only those requirements are final**. The motions illustrate what should be done; the definitive architecture is expected to be structured around optimal solutions proposed and developed with metaprogramming intelligent algorithms and research organized through [DFMP](https://dfmp.drayker.org) and other methods.
 
-Docs BSDK 
+That distinction is the point of this repository, not a disclaimer on it. A structure decreed once is a structure that cannot learn.
 
-All proposed resolutions presented here are solutions to the requirements of Dk and Drayker platform and system, only those requirements are final. These motions for resolutions illustrate what should be done, but the definitive architecture will be structured around optimal solutions that are proposed and developed with metaprogramming intelligent algorithms and research organized through DFMP and other methods.
+## Role in the system
 
+- **Beneath the kernel** — BSDK is the structural layer [Dk](https://dk.drayker.org) is built on.
+- **A shared vocabulary** — it gives DFM modeling and Dk architecture one language for functions and modules.
+- **Made to change** — the structure is meant to evolve without discarding what still works.
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+## State of this documentation
+
+Thin. This page and the repository state the purpose and the ground rule; the motions themselves are not published yet. If you are looking for a place where careful architectural writing would immediately matter, it is here.
+
+## Contributing
+
+Open an issue with the motion you want to argue for — that is how a resolution enters the process. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/#org/fn).
+
+Related: [`dk`](https://dk.drayker.org) · [`dk-network`](https://dknetwork.drayker.org) · [`dfmp`](https://dfmp.drayker.org)
+
+Other languages: [Português](./README.PT.md) · [Español](./README.ES.md) — both currently behind this English version.
+
+---
+
+Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Drayker's work is primarily voluntary; resources are governed by the non-profit [DAF](https://daf.drayker.org).

@@ -2,16 +2,22 @@
 # Source: https://github.com/draykerdk/drayker-theme
 remote_theme: draykerdk/drayker-theme
 
+# Set explicitly: GitHub Pages derives site.url without TLS when the certificate is
+# terminated upstream, which leaves absolute URLs in meta tags on http. Everything the
+# sitemap and the social cards emit has to be the canonical https address.
+url: "https://bsdk.drayker.org"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-optional-front-matter
+  - jekyll-sitemap
 
-title: BSDK
-description: Base Structure DK — DNA Kernel FM. Motions for resolution on the base structure of the Dk kernel.
+title: "BSDK"
+description: "Base Structure DK — DNA Kernel FM. Motions for resolution on the base structure of the Dk kernel."
 
-dk_kicker: Kernel component
-dk_subdomain: bsdk.drayker.org
-dk_repo: https://github.com/draykerdk/bsdk
+dk_kicker: "Kernel component"
+dk_subdomain: "bsdk.drayker.org"
+dk_repo: "https://github.com/draykerdk/bsdk"
 
 defaults:
   - scope:

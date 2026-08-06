@@ -1,24 +1,20 @@
-# ASCII-Font › http://patorjk.com/software/taag/
-#   ____    ____        _      __   __   _  __  U _____ u   ____     
-#  |  _"\U |  _"\ u U  /"\  u  \ \ / /  |"|/ /  \| ___"|/U |  _"\ u  
-# /| | | |\| |_) |/  \/ _ \/    \ V /   | ' /    |  _|"   \| |_) |/  
-# U| |_| |\|  _ <    / ___ \   U_|"|_uU/| . \\u  | |___    |  _ <    
-#  |____/ u|_| \_\  /_/   \_\    |_|    |_|\_\   |_____|   |_| \_\   
-#   |||_   //   \\_  \\    >>.-,//|(_ ,-,>> \\,-.<<   >>   //   \\_  
-#  (__)_) (__)  (__)(__)  (__)\_) (__) \.)   (_/(__) (__) (__)  (__) 
+# The Drayker documentation theme — one layout shared by every *.drayker.org site.
+# Source: https://github.com/draykerdk/drayker-theme
+remote_theme: draykerdk/drayker-theme
 
-#------------------------------------------------------------------------------------------------------------
+plugins:
+  - jekyll-remote-theme
+  - jekyll-optional-front-matter
 
-#
-#      _____ _ __          _____      __  __  _
-#     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
-#     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
-#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
-#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
-#                                                 /____/
-#
-# Title of your website
-title: 'BSDK'
+title: BSDK
+description: Base Structure DK — DNA Kernel FM. Motions for resolution on the base structure of the Dk kernel.
 
-# The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Base structure of the distributed kernel'
+dk_kicker: Kernel component
+dk_subdomain: bsdk.drayker.org
+dk_repo: https://github.com/draykerdk/bsdk
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

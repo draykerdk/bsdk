@@ -1,0 +1,14 @@
+name: Drayker component contract
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  component-contract:
+    uses: draykerdk/.github/.github/workflows/validate-component.yml@master

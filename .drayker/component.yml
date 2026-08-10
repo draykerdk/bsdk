@@ -1,0 +1,31 @@
+schema_version: 1
+component:
+  id: bsdk
+  name: BSDK
+  layer: KERNEL
+  artifact_type: architecture
+  problem: Describe the base structure through which Dk functions and modules can be composed and revised.
+  scope:
+    - Public proposal for the base structure of the Dk kernel.
+    - Vocabulary for functions, modules and composition.
+  non_scope:
+    - A production implementation of the kernel.
+    - A stable or complete module specification.
+  dependencies:
+    - dk
+  implementation:
+    level: none
+    scope: The repository contains an architectural proposal and no executable BSDK implementation.
+    evidence:
+      - type: document
+        ref: docs/README.md
+  risks:
+    - The proposed structure may change as the Dk architecture becomes testable.
+    - Conceptual terms may be read as stable interfaces before they are specified.
+  contributions:
+    availability: open
+    entrypoint: https://github.com/draykerdk/bsdk/issues
+  source_of_truth:
+    repository: https://github.com/draykerdk/bsdk
+    path: docs/README.md
+  last_reviewed: "2026-08-10"

@@ -28,4 +28,4 @@ Other languages: [Português](./README.PT.md) · [Español](./README.ES.md) — 
 
 ---
 
-Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Drayker's work is primarily voluntary; resources are governed by the non-profit [DAF](https://daf.drayker.org).
+Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Drayker's work is primarily voluntary. DAF is proposed governance architecture; current founding governance is documented in [`draykerdk/.github`](https://github.com/draykerdk/.github/blob/master/GOVERNANCE.md).

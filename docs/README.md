@@ -1,5 +1,11 @@
 BSDK — Base Structure DK, the DNA Kernel FM — is where the base structure of the [Dk](https://dk.drayker.org) kernel is proposed: how functions and modules are assembled into something that can be composed, revised and carried into larger distributed systems.
 
+## Why this exists
+
+Drayker is a way of working where people keep creating, discovering and learning while intelligence carries the rest, and what results reaches the work that produced it. BSDK is the base structure the kernel grows from — the part that decides what the rest can become.
+
+The argument in full is on the [manifesto](https://drayker.org/manifesto/); the [economy page](https://drayker.org/economy/) states plainly what contributing here earns and what it does not.
+
 ## What is published here
 
 Motions for resolution. Not a specification.
@@ -20,7 +26,7 @@ Thin. This page and the repository state the purpose and the ground rule; the mo
 
 ## Contributing
 
-Open an issue with the motion you want to argue for — that is how a resolution enters the process. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/#org/fn).
+Open an issue with the motion you want to argue for — that is how a resolution enters the process. Issues small enough for one person to finish carry the `open-function` label and appear on the board at [drayker.org](https://drayker.org/fn/).
 
 Related: [`dk`](https://dk.drayker.org) · [`dk-network`](https://dknetwork.drayker.org) · [`dfmp`](https://dfmp.drayker.org)
 

@@ -13,9 +13,9 @@ plugins:
   - jekyll-sitemap
 
 title: "BSDK"
-description: "Base Structure DK — DNA Kernel FM. Motions for resolution on the base structure of the Dk kernel."
+description: "The base structure the Dk intelligence grows from — how functions and modules are assembled into something that can be composed, revised and carried into larger distributed systems."
 
-dk_kicker: "Kernel component"
+dk_kicker: "The base structure"
 dk_subdomain: "bsdk.drayker.org"
 dk_repo: "https://github.com/draykerdk/bsdk"
 

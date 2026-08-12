@@ -18,7 +18,11 @@ That distinction is the point of this repository, not a disclaimer on it. A stru
 
 BSDK is the structural layer [Dk](https://dk.drayker.org) stands on: the DNA-like base structure the kernel is assembled from, and the part that decides what the rest can become.
 
-Everything above it leans on what this structure decides. [DFM](https://dfmp.drayker.org) gives it the shared vocabulary — the same language of functions and modules the method cuts work into is the language this base structure is proposed in. [Dk](https://dk.drayker.org) is assembled from it — the intelligence cores, from the mini core of Dk Personal to the full core of Dk Global, are composed out of the pieces BSDK defines; [OSDK](https://osdk.drayker.org) and [UID](https://uid.drayker.org) are composed from the same pieces it defines; and because the structure is meant to evolve without discarding what still works, the whole ecosystem inherits that property. A structure decreed once is a structure that cannot learn — BSDK exists to be the opposite of that.
+Everything above it leans on what this structure decides. [DFM](https://dfmp.drayker.org) gives it the shared vocabulary — the same language of functions and modules the method cuts work into is the language this base structure is proposed in. [Dk](https://dk.drayker.org) is assembled from it — the intelligence cores, from the mini core of Dk Personal to the full core of Dk Global, are composed out of the pieces BSDK defines; [OSDK](https://osdk.drayker.org) and [UID](https://uid.drayker.org) are consumed through it; and because the structure is meant to evolve without discarding what still works, the whole ecosystem inherits that property. A structure decreed once is a structure that cannot learn — BSDK exists to be the opposite of that.
+
+## The equation and the research behind it
+
+The definitive form of BSDK is the **super equation**: the base structure that compresses the behavior of the network and the Dk. The research suggests its predictive modeling may be beyond human capacity alone — which is why the work is expected to be carried out by [Meta DFM](https://metadfmp.drayker.org), the evolutionary research and development super-agent. The equation is open research; the agent that will help find it is part of the same design.
 
 ## State of this documentation
 

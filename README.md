@@ -1,6 +1,6 @@
 # BSDK
 
-Base Structure DK. The base structure proposed for the kernel beneath the Dk intelligence: how functions and modules are assembled into something that can be composed and revised.
+Base Structure Dk. The base structure proposed for the kernel beneath the Dk intelligence: how functions and modules are assembled into something that can be composed and revised.
 
 **Documentation: [bsdk.drayker.org](https://bsdk.drayker.org)**. Published by GitHub Pages from [`docs/`](./docs), which is where the material for this component lives.
 

@@ -1,6 +1,6 @@
 # BSDK
 
-> The base structure the Dk intelligence grows from — how functions and modules are assembled into something that can be composed, revised and carried into larger distributed systems.
+> BSDK studies how functions, modules and their relationships can form a coherent base for Dk. Its central question is how a system can evolve while the parts built on it remain understandable.
 
 BSDK is a public component of Drayker. Drayker is the system; Dk is its intelligence; Dk Network is its network.
 

@@ -1,8 +1,18 @@
-BSDK — Base Structure DK — is where the base structure of [Dk](https://dk.drayker.org) is proposed: the DNA-like layer the kernel is assembled from, how functions and modules are assembled into something that can be composed, revised and carried into larger distributed systems.
+> A structure for composing and revising the Dk kernel.
+
+BSDK studies how functions, modules and their relationships can form a coherent base for Dk. Its central question is how a system can evolve while the parts built on it remain understandable.
+
+The proposed base structure makes functional relationships part of the model, supporting explicit interfaces, dependency analysis and revision.
+
+A useful foundation gives future contributors a way to examine and improve the system beyond the choices of its first authors.
+
+## A practical example
+
+A revised module should make it possible to identify which dependent functions need review before the change is adopted. This is an illustration of the proposed design.
 
 ## Why this exists
 
-Drayker is a way of working where people keep creating, discovering and learning while intelligence carries the rest, and what results reaches the work that produced it. BSDK is the base structure the intelligence grows from — the part that decides what the rest can become.
+BSDK is the base structure the intelligence grows from — the part that decides what the rest can become.
 
 The argument in full is on the [manifesto](https://drayker.org/manifesto/); the [economy page](https://drayker.org/economy/) states plainly what contributing here earns and what it does not.
 

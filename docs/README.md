@@ -44,8 +44,8 @@ Open an issue with the motion you want to argue for — that is how a resolution
 
 Related: [`dk`](https://dk.drayker.org) · [`dk-network`](https://dknetwork.drayker.org) · [`dfmp`](https://dfmp.drayker.org)
 
-Other languages: [Português](./README.PT.md) · [Español](./README.ES.md) — both currently behind this English version.
+English is the canonical language of this documentation; read other languages through automatic translation. Native translation and localization are planned for the Drayker sites.
 
 ---
 
-Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Drayker's work is primarily voluntary. DAF is proposed governance architecture; current founding governance is documented in [`draykerdk/.github`](https://github.com/draykerdk/.github/blob/master/GOVERNANCE.md).
+Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Drayker is a non-profit organization, and its work is primarily voluntary. DAF is proposed governance architecture; current founding governance is documented in [`draykerdk/.github`](https://github.com/draykerdk/.github/blob/master/GOVERNANCE.md).

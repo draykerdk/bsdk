@@ -26,7 +26,7 @@ That distinction is the point of this repository, not a disclaimer on it. A stru
 
 ## How it fits the whole
 
-BSDK is the structural layer [Dk](https://dk.drayker.org) stands on: the DNA-like base structure the kernel is assembled from, and the part that decides what the rest can become.
+BSDK is the structural layer [Dk](https://dk.drayker.org) stands on: the DNA-like base structure the kernel is assembled from, and the part that decides what the rest can become. It also holds the base layer of the constitution: the rules that keep the parts coordinated and the mandate of Dk Global. That base is much harder to change than anything else, and a change to the members' constitution must be compatible with it, or Dk Global blocks the change until the kernel itself changes.
 
 Everything above it leans on what this structure decides. [DFM](https://dfmp.drayker.org) gives it the shared vocabulary — the same language of functions and modules the method cuts work into is the language this base structure is proposed in. [Dk](https://dk.drayker.org) is assembled from it — the intelligence cores, from the mini core of Dk Personal to the full core of Dk Global, are composed out of the pieces BSDK defines; [OSDK](https://osdk.drayker.org) and [UID](https://uid.drayker.org) are consumed through it; and because the structure is meant to evolve without discarding what still works, the whole ecosystem inherits that property. A structure decreed once is a structure that cannot learn — BSDK exists to be the opposite of that.
 
@@ -64,4 +64,4 @@ English is the canonical language of this documentation; read other languages th
 
 ---
 
-Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Drayker is a non-profit organization, and its work is primarily voluntary. DAF is proposed governance architecture; current founding governance is documented in [`draykerdk/.github`](https://github.com/draykerdk/.github/blob/master/GOVERNANCE.md).
+Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Drayker is non-profit, and its work is primarily voluntary. DAF is proposed governance architecture; current founding governance is documented in [`draykerdk/.github`](https://github.com/draykerdk/.github/blob/master/GOVERNANCE.md).

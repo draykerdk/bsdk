@@ -2,7 +2,7 @@
 
 > BSDK studies how functions, modules and their relationships can form a coherent base for Dk. Its central question is how a system can evolve while the parts built on it remain understandable.
 
-BSDK is a public component of Drayker. Drayker is the system; Dk is its intelligence; Dk Network is its network.
+BSDK is a public component of Drayker. Drayker is the supersystem; Dk is its intelligence; Dk Network is its network.
 
 ## Canonical resources
 

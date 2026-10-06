@@ -30,13 +30,29 @@ BSDK is the structural layer [Dk](https://dk.drayker.org) stands on: the DNA-lik
 
 Everything above it leans on what this structure decides. [DFM](https://dfmp.drayker.org) gives it the shared vocabulary — the same language of functions and modules the method cuts work into is the language this base structure is proposed in. [Dk](https://dk.drayker.org) is assembled from it — the intelligence cores, from the mini core of Dk Personal to the full core of Dk Global, are composed out of the pieces BSDK defines; [OSDK](https://osdk.drayker.org) and [UID](https://uid.drayker.org) are consumed through it; and because the structure is meant to evolve without discarding what still works, the whole ecosystem inherits that property. A structure decreed once is a structure that cannot learn — BSDK exists to be the opposite of that.
 
+## The first motions
+
+These come from the founding design notes. They are motions, written to be argued with and improved, not a specification.
+
+**Functions.** Each function performs one minimal task and is structured like a document: it can be understood at a high level while keeping its low-level properties and performance. Functions are grouped into modules through structures such as decision trees. The structure is designed for distributed computing, so each function can run in a different place, in a different way.
+
+**Modules.** Modules integrate functions in a fractal architecture: modules order other modules, which order functions. A block can hold information (data) or functions (processes). Abstraction modules handle information, and processing and optimization modules handle functions. The module's data structure guarantees redundancy for errors, so that Dk can detect and correct them.
+
+**Immutability and clones.** All functions and modules are immutable. A change overwrites nothing: it is a mutant clone that runs in parallel with the original while both are still in use. Every function is converted into an optimized binary linked by hash to its original code. When Dk evolves a binary, the modification breaks the hash. It is then linked to the old function and documented in the oracle, [Dknowledge](https://dknowledge.drayker.org), until the network fully accepts it and it becomes the standard.
+
+**Forgetting.** Once the new version is the standard, the old function is forgotten over time. A function or module that goes unused for a long time, such as one already optimized and replaced, becomes a fragment: a simplification of the original that takes a fraction of its former memory and can only be restored through reverse engineering and computational effort. The same holds for memory modules.
+
+**Function types.** Functions carry specific data types and structure types. Computational modules define them, and evolutionary, AutoML and integration modules can create new ones, either to optimize heavily used functions and structures or to enable new functions, architectures and modules. One example is the parallel function, which uses several versions of itself with small changes and can serve as a whole layer of a neural network.
+
+**AutoML and evolution.** AutoML modules can combine thousands of functions from the network, compare them, abstract them and create new modules to solve a problem or optimize an existing module. Evolutionary modules can create different functions and modules to meet needs or adapt to new environments. Categorization and addressing modules form fractal trees of functions, grouped by kinship, similarity, metadata and hyperparameters. These trees help nodes find functions and modules on the network and are vital to AutoML and evolution. The more modules share a function, the faster it becomes, because more nodes use, relay and process it, and the more the evolution layer keeps optimizing it.
+
 ## The equation and the research behind it
 
 The definitive form of BSDK is the **super equation**: the base structure that compresses the behavior of the network and the Dk. The research suggests its predictive modeling may be beyond human capacity alone — which is why the work is expected to be carried out by [Meta DFM](https://metadfmp.drayker.org), the evolutionary research and development super-agent. The equation is open research; the agent that will help find it is part of the same design.
 
 ## State of this documentation
 
-Thin. This page and the repository state the purpose and the ground rule; the motions themselves are not published yet. If you are looking for a place where careful architectural writing would immediately matter, it is here.
+Still thin. The first motions, on functions, modules, immutability, forgetting and AutoML, are published above. Formal definitions, worked examples and the base protocol are not. If you are looking for a place where careful architectural writing would immediately matter, it is here.
 
 ## Contributing
 

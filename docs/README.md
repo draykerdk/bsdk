@@ -64,4 +64,4 @@ English is the canonical language of this documentation; read other languages th
 
 ---
 
-Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Drayker is non-profit, and its work is primarily voluntary. DAF is proposed governance architecture; current founding governance is documented in [`draykerdk/.github`](https://github.com/draykerdk/.github/blob/master/GOVERNANCE.md).
+Content licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Drayker is non-profit, and its work is primarily voluntary. DAF is an autonomous federation of autonomous units, a basic and primitive form of PAP, implemented now. Current founding governance is documented in [`draykerdk/.github`](https://github.com/draykerdk/.github/blob/master/GOVERNANCE.md).
